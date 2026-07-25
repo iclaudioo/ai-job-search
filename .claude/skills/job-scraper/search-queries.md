@@ -1,75 +1,79 @@
 # Search Queries for Job Scraper
 
-<!-- SETUP: Customize these queries based on your skills, target roles, and location -->
-
 ## Installed portal CLIs (primary for `/scrape`)
 
 `/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
 
-The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
+De Deense portal-CLI's (jobindex, jobbank, jobdanmark, jobnet) zijn irrelevant voor de Belgische markt: negeren. Overweeg `/add-portal` voor VDAB of Jobat als een CLI nuttig blijkt.
+
+The `site:` query templates in this file are the **WebSearch fallback**: for portals without a CLI, company career pages, or when a CLI fails.
 
 ## Search Sites
 
-Primary (your market's job boards - scaffold one with `/add-portal`):
-- **[YOUR_JOB_BOARD]** - your market's largest general job board
-- **linkedin.com/jobs** - LinkedIn job listings (filter: [YOUR_COUNTRY] / [YOUR_CITY]); also covered by `linkedin-search` CLI
-- **[YOUR_INDUSTRY_JOB_BOARD]** - a niche/industry board for your field (optional)
-- **[YOUR_ADDITIONAL_JOB_BOARD]** - another major board for your market (optional)
+Primary (Belgische job boards):
+- **vdab.be** - grootste Vlaamse vacaturebank
+- **jobat.be** - groot Vlaams job board, sterk in marketing- en managementprofielen
+- **linkedin.com/jobs** - LinkedIn (filter: België / Limburg / Vlaams-Brabant); also covered by `linkedin-search` CLI
+- **stepstone.be** - sterk in senior en managementrollen
+- **indeed.be** - breed aanbod (optioneel)
 
 Secondary (company career pages via Google):
-- Direct Google searches with `site:` filters for known target companies
+- Direct Google searches with `site:` filters for known target companies (KBC, energie- en telcospelers, B2B-scale-ups)
 
 ## Query Categories
 
-Queries are grouped by priority. Each query should be combined with your location terms (e.g. your city, region, or metro area) where the site supports it.
+Queries are grouped by priority. Combineer elke query met locatietermen (Limburg, Vlaams-Brabant, Hasselt, Leuven, Antwerpen, Brussel) waar de site dat ondersteunt.
 
-### Priority 1: [YOUR_PRIMARY_ROLE_TYPE]
+### Priority 1: Value proposition / propositie
 
-These match your strongest and most desired career direction.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_KEY_SKILL]" [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_PRIMARY_JOB_TITLE]" [YOUR_COUNTRY]
-```
-
-### Priority 2: [YOUR_DOMAIN_EXPERTISE]
-
-These match your domain expertise.
+Sterkste en meest gewenste richting.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] OR [YOUR_REGION]
-site:[YOUR_JOB_BOARD] [YOUR_DOMAIN_KEYWORD_2] [YOUR_COUNTRY]
-site:linkedin.com/jobs [YOUR_DOMAIN_KEYWORD_1] [YOUR_CITY] [YOUR_COUNTRY]
+site:jobat.be "value proposition" OR "propositiemanager" OR "proposition manager"
+site:vdab.be "value proposition manager" OR "propositie"
+site:linkedin.com/jobs "value proposition manager" België
+site:linkedin.com/jobs "proposition lead" OR "propositions" Belgium
+site:stepstone.be "value proposition" marketing
 ```
 
-### Priority 3: [YOUR_ADJACENT_ROLE_TYPE]
+### Priority 2: Marketing director / strategie
 
-Adjacent roles you could pivot into.
-
-```
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_1]" [YOUR_KEY_SKILL] [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "[YOUR_ADJACENT_TITLE_2]" [YOUR_KEY_SKILL] [YOUR_CITY]
-```
-
-### Priority 4: Broader Technical / Consulting
-
-Wider net for general technical roles.
+Marketingleiderschap met strategisch mandaat.
 
 ```
-site:[YOUR_JOB_BOARD] [YOUR_KEY_SKILL] developer [YOUR_CITY]
-site:linkedin.com/jobs "[YOUR_KEY_SKILL] developer" [YOUR_CITY]
-site:[YOUR_JOB_BOARD] "technical consultant" [YOUR_DOMAIN] [YOUR_CITY]
+site:jobat.be "marketing director" OR "head of marketing" OR "marketingdirecteur" Limburg OR "Vlaams-Brabant"
+site:vdab.be "marketing manager" strategie B2B
+site:linkedin.com/jobs "head of marketing" B2B Vlaanderen
+site:stepstone.be "marketing director" OR "marketingverantwoordelijke" België
+```
+
+### Priority 3: Strategisch adjacente rollen
+
+Rollen waar het propositie- en gedragsprofiel direct inzetbaar is.
+
+```
+site:jobat.be "go-to-market" OR "product marketing lead" OR "brand strategist"
+site:linkedin.com/jobs "customer experience" strategie manager België
+site:linkedin.com/jobs "growth" "behavioural" OR "behavioral" Belgium
+site:vdab.be "business development manager" strategie B2B Limburg
+```
+
+### Priority 4: Breder net, consulting en interim
+
+```
+site:linkedin.com/jobs "marketing strategy consultant" Belgium hybrid
+site:jobat.be "strategisch consultant" marketing
+site:linkedin.com/jobs "fractional CMO" OR "interim marketing director" Belgium
 ```
 
 ## Location Filter
 
-When evaluating results, verify the job location is within reasonable commute distance from your home. Define acceptable areas:
-- [YOUR_CITY] and surrounding areas
-- [ACCEPTABLE_AREA_1]
-- [ACCEPTABLE_AREA_2]
-- [BORDERLINE_AREA] (borderline - ~X min by transit)
-- [TOO_FAR_AREA] (too far)
+When evaluating results, verify the job location is within reasonable commute distance from Lummen. Define acceptable areas:
+- Ideaal: Limburg en Vlaams-Brabant (Hasselt, Diest, Leuven, Genk, Aarschot)
+- Aanvaardbaar: Antwerpen, Mechelen, Brussel (mits hybride)
+- Aanvaardbaar: elders in Vlaanderen mits grotendeels remote/hybride
+- Borderline: Gent en Oost-Vlaanderen voltijds op kantoor (~1u15 rijden)
+- Te ver: West-Vlaanderen of Wallonië voltijds op kantoor; alles met verhuis
 
 ## Date Filter
 

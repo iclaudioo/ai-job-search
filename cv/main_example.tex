@@ -1,10 +1,8 @@
-%% Example CV - [YOUR_NAME]
-%% Comprehensive overview of all competencies, experience, and achievements.
-%% Use as a master reference when tailoring role-specific CVs.
-%%
-%% SETUP: Run /setup to populate this with your actual information.
-%% Compile with: lualatex main_example.tex
-%% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
+%% Master-CV - Claudio Swijsen
+%% Volledig overzicht van competenties, ervaring en realisaties.
+%% Gebruik als bronbestand bij het bouwen van rolspecifieke CV's (main_<bedrijf>_<rol>.tex).
+%% Compileren met: lualatex main_example.tex
+%% (pdflatex faalt vaak op moderne MiKTeX met fontawesome5 font-expansion errors.)
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 \moderncvstyle{banking}
@@ -24,146 +22,183 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Claudio Swijsen - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Claudio}{Swijsen}
+\address{Lummen, Belgi\"e}{}{}
+\phone[mobile]{+32~491~62~16~21}
+\email{cswijsen@gmail.com}
+\extrainfo{\href{https://linkedin.com/in/claudioswijsen}{LinkedIn} (linkedin.com/in/claudioswijsen), \href{https://andthenwhat.be}{andthenwhat.be}}
 
 \begin{document}
 
 \makecvtitle
 
 % ============================================================
-%     PROFILE STATEMENT
+%     PROFIEL
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Wie de klantnood niet scherp heeft, optimaliseert de verkeerde dingen. Klantnoden scherp krijgen en vertalen naar proposities: dat is mijn vak. Twintig jaar B2B over media, automotive, tech en energie, telkens op de plek waar de propositie het probleem was. Outside-in, met behavioural design als vast instrument. Praktijk op het niveau dat een masterdiploma certificeert, aangescherpt aan INSEAD en Vlerick.}
+
+\vspace{4pt}
+\small{\textbf{In cijfers:} groeistrategie tot 2030 goedgekeurd door de raad van bestuur \textperiodcentered\ fleet sales +56\% in \'e\'en jaar \textperiodcentered\ HIP, voorloper van het cafetariaplan, uitgegroeid tot 500+ wagens/jaar \textperiodcentered\ B2B-medium met 110.000 bezoekers/maand}
 
 % ============================================================
-%     CORE COMPETENCIES
+%     KERNCOMPETENTIES
 % ============================================================
 
-\section{Core Competencies}
+\section{Kerncompetenties}
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Proposities en strategie}: value proposition-ontwikkeling, waardeproposities (Playing to Win, Blue Ocean), messaging, storytelling, go-to-market, businessmodelstrategie.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Klantinzicht en data}: persona's en kwalitatief klantonderzoek, marktdata-analyse en datavisualisatie, behavioural design.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Prototyping}: bouwt zelf werkende prototypes in Next.js, React en HTML om idee\"en snel tastbaar en testbaar te maken.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{AI}: AI-native marketingworkflows met Claude Code, Leading AI \& digital marketing strategy (INSEAD), zes Anthropic-certificaten (2026).
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Leiderschap}: leidde marketing- en salesteams tot 11 medewerkers; C-level sparringpartner van CEO tot raad van bestuur.
 
 \end{itemize}
 
 % ============================================================
-%     PROFESSIONAL EXPERIENCE
+%     PROFESSIONELE ERVARING
 % ============================================================
 
-\section{Professional Experience}
+\section{Professionele ervaring}
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Comfort Energy Group ---
+\item{\cventry{2024--2026}{Strategic Growth Leader}{Comfort Energy Group}{Belgi\"e}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Schreef de winning sales propositions, de commerci\"ele invulling van de how to win: proposities die klantnoden invullen die de concurrentie laat liggen; de uitrol loopt.
+    \item Herkende in grootschalig klantonderzoek en eigen marktdata het patroon achter structureel dalende volumes en vertaalde dat naar het inzicht dat de hele strategie draagt: klantlevenswaarde boven transactie.
+    \item Ontwikkelde die groeistrategie samen met de CEO volgens het Playing to Win-framework, verdeeld over vier fiscale jaren tot 2030; goedgekeurd door de raad van bestuur.
+    \item End-to-end verantwoordelijk voor de strategic growth marketing; bouwde de proposities over alle afdelingen heen, samen met CDO, CFO, Chief M\&A Officer, Chief Supply Chain Officer en Operations.
+    \item Bracht de Belgische markt met eigen data-analyse tot op straatniveau in kaart; die kaart stuurt de where to play en de proposities.
+    \item Aangeduid als creatieve lead van het nieuwe transformation office.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Do Don't Try ---
+\item{\cventry{2023--2024}{Co-founder en Managing Director}{Do Don't Try, strategische agency}{Hasselt}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Richtte een all-round agency op, gebouwd op behavioural design; leverde propositietrajecten voor een internationale B2B-speler en voor startende en gevestigde ondernemers, van persona-onderzoek tot go-to-market.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- (G) Inspirational ---
+\item{\cventry{2022--2024}{Managing Director}{(G) Inspirational, vennootschap boven het ginmerk Holy Water}{Diest}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Nam de operationele leiding van een startup in moeilijkheden (meer dan 350.000 euro verlies): sneed in de kostenbasis, herzag prijs en distributie, zette een B2C-webshop op en besliste eind 2024 te stoppen toen stoppen de juiste keuze was.
 \end{itemize}}}
-
-\end{itemize}
-
-% ============================================================
-%     EDUCATION
-% ============================================================
-
-\section{Education}
-\vspace{1pt}
-\begin{itemize}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+% --- A&M Group Head of Marketing ---
+\needspace{5\baselineskip}
+\item{\cventry{2022}{Head of Marketing}{A\&M Group, automotive groep}{Hasselt}{}{\vspace{1pt}
+\begin{itemize}
+    \item Gepromoveerd tot head of marketing voor de volledige groep; leverde de rebranding die alle dealergroepen onder \'e\'en identiteit bracht, van strategie en naamgeving tot uitrol.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- A&M / Groep Delorge ---
+\item{\cventry{2020--2022}{B2B- en Marketingmanager}{A\&M Group / Groep Delorge, automotive groep}{Hasselt}{}{\vspace{1pt}
+\begin{itemize}
+    \item Twee voltijdse functies tegelijk: leidde twee teams, 4 marketeers en 7 medewerkers in fleet, voor 53 showrooms en 8 merken (VW-groep, BMW, MINI, JLR).
+    \item Groeide de fleet sales van 2.850 wagens (2020) naar 4.450 (2021), een stijging van 56\% op \'e\'en jaar.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- i3-Technologies ---
+\item{\cventry{2018--2020}{Director of Sales}{i3-Technologies, onderwijs- en corporate technologie}{internationaal}{}{\vspace{1pt}
+\begin{itemize}
+    \item Leidde 4 regional sales managers (Benelux, Frankrijk, Nordics, Baltics, DACH); groeide de omzet in 2019 van 13 naar 15 miljoen euro (+15\%).
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- One Consultants ---
+\item{\cventry{2017--2018}{Marketing- en Business Development Manager}{One Consultants, SAP HANA-consultancy}{Europa}{}{\vspace{1pt}
+\begin{itemize}
+    \item Opende de deur bij SAP Belgi\"e; dat partnership mondde uit in een spreekplek op een Europees SAP-klantenevent in Parijs, een podium dat anders enkel SAP zelf betreedt.
+    \item Leverde de rebranding.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Groep Delorge B2B ---
+\item{\cventry{2015--2017}{B2B-Manager}{Groep Delorge}{Hasselt}{}{\vspace{1pt}
+\begin{itemize}
+    \item Verhoogde de fleet sales met 20\% in 2016.
+    \item Lanceerde de innovatie HIP (Happiness as Incentive Plan), voorloper van het cafetariaplan: 60 wagens in de markt, na 2017 doorgegroeid tot 500+ per jaar.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Made in Limburg ---
+\item{\cventry{2011--2015}{Projectmanager Made in Limburg}{Mediahuis Belgi\"e}{Hasselt}{}{\vspace{1pt}
+\begin{itemize}
+    \item Bouwde Made in Limburg uit tot het grootste onafhankelijke B2B-medium van Limburg (110.000 unieke bezoekers/maand); ontwierp het revenue model en schaalde naar vijf bijkomende regio's.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Eerdere ervaring ---
+\item{\cventry{2004--2011}{Eerdere ervaring, sales en business development}{Vanerum Group \textperiodcentered\ Cegeka \textperiodcentered\ Concentra Media}{}{}{}}
 
 \end{itemize}
 
 % ============================================================
-%     LANGUAGES
+%     OPLEIDING, EXECUTIVE EDUCATION EN CERTIFICATEN
 % ============================================================
 
-\section{Languages}
+\section{Opleiding, executive education en certificaten}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item Leading AI \& digital marketing strategy, INSEAD (2026)
+\item Blue Ocean Strategy, INSEAD (2026)
+\item Brand management, Vlerick Business School (2025)
+\item Behavioural design, fundamentals en advanced, SUE Academy (2024--2025)
+\item Claude Code in Action, een van zes Anthropic-certificaten (2026)
+\item Think different with Duncan Wardle (2025) \textperiodcentered\ Verbaal Meesterschap, Remco Claassen (2024)
+\item Advanced automotive management, Febiac Academy (2020--2021)
+\item Bachelor corporate communication, XIOS Hogeschool Limburg, nu PXL (2001--2004)
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     TALEN
 % ============================================================
 
-\section{Publications}
+\section{Talen}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
+\item Nederlands (moedertaal), Engels (professioneel), Frans (professioneel).
 \end{itemize}
 
 % ============================================================
-%     HONORS AND AWARDS (optional)
+%     REFERENTIES
 % ============================================================
 
-\section{Honors and Awards}
+\section{Referenties}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
-\end{itemize}
-
-% ============================================================
-%     REFERENCES
-% ============================================================
-
-\section{References}
-\vspace{1pt}
-\begin{itemize}
-\item{Available upon request.}
+\item{Beschikbaar op aanvraag.}
 \end{itemize}
 
 \end{document}

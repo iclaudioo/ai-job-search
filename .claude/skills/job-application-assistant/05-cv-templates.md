@@ -115,12 +115,16 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For value proposition / propositie roles:** *[Used for: KBC_ValuePropositionManager]*
+> Wie de klantnood niet scherp heeft, optimaliseert de verkeerde dingen. Klantnoden scherp krijgen en vertalen naar proposities: dat is mijn vak. Vandaag [meest recente rol], met directe lijn naar de CEO. Ziet de opportuniteiten die anderen laten liggen: outside-in, met behavioural design als vast instrument. Twintig jaar B2B, telkens op de plek waar de propositie het probleem was. Praktijk op het niveau dat een masterdiploma certificeert, aangescherpt aan INSEAD en Vlerick.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For marketing director / strategie roles:** *[Used for: zerodraft, Unikoo_HeadOfGrowth]*
+> De meeste bedrijven hebben geen marketingprobleem maar een propositieprobleem. Strategiebureaus analyseren, marketingbureaus voeren uit. Daartussen ligt het werk: de propositie zelf, gebouwd op gedragsinzicht, van strategie tot uitvoering. Twintig jaar B2B over media, automotive, tech en energie. Bouwde een eigen marketingbureau, leidde marketing- en salesteams, en stuurde de groeistrategie van een Belgisch energiebedrijf met directe lijn naar de CEO.
+
+**"In cijfers" proof-point regel (onder het profiel, KBC-CV-patroon):**
+> In cijfers: groeistrategie tot 2030 goedgekeurd door de raad van bestuur · fleet sales +56% in één jaar · HIP, voorloper van het cafetariaplan, uitgegroeid tot 500+ wagens/jaar · B2B-medium met 110.000 bezoekers/maand
+
+**Nederlandse sectiekoppen (CV language is Nederlands):** `Profiel`, `Kerncompetenties`, `Professionele ervaring`, `Opleiding · Executive education · Certificaten`, `Vaardigheden en talen`, `Referenties`, en de slotregel `Beschikbaar op aanvraag.`
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 
@@ -188,10 +192,10 @@ Include `\usepackage{needspace}` in the preamble.
 Add `\enlargethispage{2-3\baselineskip}` before a late section (e.g., before `\section{Honors and Awards}`) to stretch page 2 by a few lines. This is the standard LaTeX rescue for near-miss overflows.
 
 **Problem: 3 pages with significant content on page 3**
-Cut content — do not compress geometry or `\vspace`. See "Relevance-weighted cutting" below for the rule.
+Cut content: do not compress geometry or `\vspace`. See "Relevance-weighted cutting" below for the rule.
 
 **Problem: content finishes early on page 2 (feels thin)**
-Restore the highest-relevance item that was previously cut — a CV that ends mid-page 2 looks incomplete.
+Restore the highest-relevance item that was previously cut: a CV that ends mid-page 2 looks incomplete.
 
 ## ATS Parseability
 
@@ -234,16 +238,16 @@ The CV **must** fit on exactly 2 pages when compiled. Use these content limits a
 
 For every candidate line, score three things:
 
-1. **Relevance to THIS posting** — does the line hit a named tool, keyword, or stated responsibility in the job ad?
-2. **Uniqueness** — is it the only place this claim appears, or is it duplicated elsewhere in the CV?
-3. **Narrative load** — does the cover letter depend on it? If cutting the line would force you to rewrite a cover-letter paragraph, it is load-bearing.
+1. **Relevance to THIS posting**: does the line hit a named tool, keyword, or stated responsibility in the job ad?
+2. **Uniqueness**: is it the only place this claim appears, or is it duplicated elsewhere in the CV?
+3. **Narrative load**: does the cover letter depend on it? If cutting the line would force you to rewrite a cover-letter paragraph, it is load-bearing.
 
 Cut the lowest-total-score line first, regardless of which section it sits in.
 
 ### Practical order of cuts (easiest → last resort)
 
 1. **Redundancy.** If an achievement appears in both Core Competencies AND a role bullet, the Core Competencies version is usually the cleaner cut (the experience bullet is more concrete evidence).
-2. **Profile-statement fluff.** A sentence that just restates what Publications or Skills will show. ("Peer-reviewed publications on X..." is already a Publications entry — profile can claim it once and stop.)
+2. **Profile-statement fluff.** A sentence that just restates what Publications or Skills will show. ("Peer-reviewed publications on X..." is already a Publications entry: profile can claim it once and stop.)
 3. **Low-relevance experience bullets.** A bullet about work that does not touch posting keywords, wherever it sits. This cuts across sections before touching the structural list.
 4. **Low-relevance supporting content.** An older-role bullet that does not speak to the target role. A certification that does not touch the posting's stack. A language entry that can be condensed to one line.
 5. **Low-relevance publications.** Keep 1-2 publications that best match the posting. Cut the rest before touching experience bullets.
@@ -252,7 +256,7 @@ Cut the lowest-total-score line first, regardless of which section it sits in.
 ### Pitfalls to avoid
 
 - Do not mechanically cut from the bottom of a static section list without checking relevance. "Cut the oldest role first" is wrong if that role is literally about the skill the posting asks for.
-- Do not cut the one concrete example the cover letter leans on. Relevance is measured against the cover letter you wrote, not just the job posting — interviewers will have read both.
+- Do not cut the one concrete example the cover letter leans on. Relevance is measured against the cover letter you wrote, not just the job posting: interviewers will have read both.
 - Do not cut to fit if the fit is borderline (2.02 pages). Prefer `\enlargethispage{2-3\baselineskip}` on a late section for near-misses; reserve content cuts for genuine overflow (content on page 3 that is more than a single trailing section).
 
 ## Recommended Section Order

@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Claudio Swijsen
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Claudio Swijsen, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,70 +10,73 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **CV language:** [YOUR_CV_LANGUAGE] <!-- English unless your market expects otherwise; /setup asks -->
+- **Name:** Claudio Swijsen
+- **Location:** Lummen, België (Vlaanderen breed, hybride verwacht bij langere pendel; geen verhuis)
+- **Languages:** Nederlands (moedertaal), Engels (professioneel), Frans (professioneel)
+- **CV language:** Nederlands
 
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Status:** Beschikbaar; opdracht als Strategic Growth Leader bij Comfort Energy Group afgerond (juni 2026), actief op zoek
+- **LinkedIn headline:** "Value Proposition Design & Strategic Growth · Behavioural Design · Go-to-Market · B2B · Founder of And Then What?"
+
+**Volledig gestructureerd profiel:** zie `.claude/skills/job-application-assistant/01-candidate-profile.md` (single source of truth voor data, framing-conventies Yoda/CEG en alle rolbullets).
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor corporate communication** (2001-2004) - XIOS Hogeschool Limburg (nu PXL)
+- Executive: Leading AI & Digital Marketing Strategy, INSEAD (2026) · Blue Ocean Strategy, INSEAD (2026) · Brand Management, Vlerick (2025) · Behavioural Design fundamentals en advanced, SUE Academy (2024-2025) · Advanced Automotive Management, Febiac Academy (2020-2021)
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Strategic Growth Leader** (nov 2024 - jun 2026) - **Comfort Energy Group** (België, extern via vennootschap Yoda)
+  - Groeistrategie tot 2030 (Playing to Win) samen met de CEO; goedgekeurd door de raad van bestuur
+  - Winning sales propositions geschreven; marktdata tot op straatniveau in kaart gebracht
+  - Creatieve lead van het nieuwe transformation office
+- **Co-founder en Managing Director** (aug 2023 - nov 2024) - **Do Don't Try** (Hasselt)
+- **Managing Director** (sep 2022 - dec 2024) - **(G) Inspirational / Holy Water** (Diest)
+- **Head of Marketing** (jan 2022 - jun 2022) - **A&M Group** (Hasselt)
+- **B2B- en Marketingmanager** (jan 2020 - jan 2022) - **A&M Group / Groep Delorge**: fleet sales +56% (2.850 naar 4.450 wagens)
+- **Director of Sales** (jul 2018 - jan 2020) - **i3-Technologies**: omzet 13 naar 15 miljoen euro (+15%)
+- **Marketing- en Business Development Manager** (apr 2017 - jul 2018) - **One Consultants** (SAP HANA-consultancy)
+- **B2B-Manager** (nov 2015 - apr 2017) - **Groep Delorge**: fleet +20%, HIP-innovatie (500+ wagens/jaar na 2017)
+- **Projectmanager Made in Limburg** (okt 2011 - mei 2015) - **Mediahuis België**: grootste onafhankelijke B2B-medium van Limburg, 110.000 bezoekers/maand
+- Eerdere ervaring (2004-2011): Vanerum Group, Cegeka, Concentra Media
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** value proposition-ontwikkeling (Playing to Win, Blue Ocean), go-to-market, B2B-groeimarketing, behavioural design, messaging en storytelling
+- **Secondary:** performance marketing, marktdata-analyse en datavisualisatie, pricing- en businessmodelstrategie, salesleiderschap
+- **Domain:** B2B in media, automotive, tech en energie (20+ jaar)
+- **Software:** prototyping in Next.js/React/HTML, AI-native workflows (Claude Code, n8n, Make)
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Zes Anthropic-certificaten** waaronder Claude Code in Action - 2026
+- **Think Different, Duncan Wardle** - 2025
+- **Verbaal Meesterschap, Remco Claassen** - 2024
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+Geen peer-reviewed publicaties.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+Geen formele awards; proof points staan als "In cijfers"-regel in `05-cv-templates.md`.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Challenge** - daagt de aannames uit waarop een business draait; comfortzones zijn duur
+- **Discover** - zoekt de klantfrictie en het gedragsinzicht dat de concurrentie laat liggen
+- **Test** - bouwt zelf werkende prototypes in plaats van strategiedecks
+- **Strengths:** outside-in denken, C-level sparring, van inzicht tot uitvoering
+- **Growth areas:** geen masterdiploma (framen als: praktijk op masterniveau, aangescherpt aan INSEAD en Vlerick); challengend profiel kan schuren in behoudende culturen
+- **Thrives in:** rollen dicht bij de eindbeslisser, met mandaat op propositie en strategie
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Proposities ontwerpen vanuit klantfrictie en gedragsinzicht; opportuniteiten zien die anderen laten liggen
+- Strategie die ook gebouwd wordt: prototypes, AI-native werken, meetbare groei
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Value proposition- en propositierollen: banken en verzekeraars (KBC-type), energie, telco, scale-ups met complexe proposities
+- Marketingleiderschap en -strategie: B2B-bedrijven in Vlaanderen (media, automotive, tech, energie)
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Verhuis vereist
+- Puur uitvoerende rol zonder mandaat op propositie of strategie
+- Voltijds op kantoor buiten pendelafstand (hybride vereist bij langere pendel)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

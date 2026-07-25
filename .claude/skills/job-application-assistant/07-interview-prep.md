@@ -14,30 +14,54 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Populated by /setup from Claudio's actual experience. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Groeistrategie Comfort Energy Group (strategisch inzicht, C-level impact)
+**S:** Belgisch energiebedrijf met structureel dalende volumes; de organisatie optimaliseerde transacties in plaats van klantrelaties.
+**T:** Als extern Strategic Growth Leader (nov 2024 - jun 2026) de groeistrategie ontwikkelen, met directe lijn naar de CEO.
+**A:** Herkende in grootschalig klantonderzoek en eigen marktdata het patroon achter de dalende volumes; vertaalde dat naar het dragende inzicht (klantlevenswaarde boven transactie); bouwde samen met de CEO de strategie volgens Playing to Win, verdeeld over vier fiscale jaren tot 2030; bracht de markt met eigen data-analyse tot op straatniveau in kaart.
+**R:** Strategie goedgekeurd door de raad van bestuur; winning sales propositions geschreven en in uitrol; aangeduid als creatieve lead van het nieuwe transformation office.
+**Use for:** "Vertel over je grootste strategische impact", "Hoe overtuig je een directie?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Fleet sales +56% bij A&M Group / Groep Delorge (executie en leiderschap)
+**S:** Automotive groep met 53 showrooms en 8 merken; fleet-activiteit met groeipotentieel, midden in de covid-periode.
+**T:** Twee voltijdse functies tegelijk: de B2B/fleet-activiteit én de marketing, met twee teams (4 marketeers, 7 fleet-medewerkers).
+**A:** Leidde beide teams parallel, richtte de fleetorganisatie op gerichte B2B-acties en accountontwikkeling.
+**R:** Fleet sales van 2.850 wagens (2020) naar 4.450 (2021): +56% op één jaar.
+**Use for:** "Vertel over meetbare resultaten", "Hoe combineer je strategie met executie?", "Hoe ga je om met hoge werkdruk?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. HIP, voorloper van het cafetariaplan (innovatie en propositie-ontwerp)
+**S:** Groep Delorge zocht als B2B-speler differentiatie in een markt waar iedereen dezelfde wagens verkoopt.
+**T:** Als B2B-manager nieuwe proposities ontwikkelen die klantnoden invullen die de concurrentie laat liggen.
+**A:** Ontwierp HIP (Happiness as Incentive Plan), een incentive-formule rond de bedrijfswagen, en lanceerde daarnaast een autodeel-app met Tapazz voor de startups op Corda Campus.
+**R:** 60 wagens in de markt bij lancering; na 2017 doorgegroeid tot 500+ per jaar. Fleet sales +20% in 2016.
+**Use for:** "Geef een voorbeeld van innovatie", "Hoe ontwerp je een nieuwe propositie?"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Made in Limburg (bouwen van nul, revenue design)
+**S:** Mediahuis wilde een B2B-medium in Limburg; het bestond nog niet.
+**T:** Als projectmanager het medium uitbouwen en commercieel leefbaar maken.
+**A:** Bouwde redactionele formule en revenue model (onder meer contextueel adverteren, wat KBC als eerste structurele partner binnenhaalde met de propositie "iets wat we nergens anders kunnen kopen").
+**R:** Grootste onafhankelijke B2B-medium van Limburg, 110.000 unieke bezoekers/maand; concept geschaald naar vijf bijkomende regio's.
+**Use for:** "Vertel over iets dat je van nul opbouwde", "Hoe ontwerp je een businessmodel?"
+
+### 5. Holy Water stopzetten (moeilijke beslissingen, eigenaarschap)
+**S:** Ginmerk in moeilijkheden, meer dan 350.000 euro verlies, toen ik instapte als managing director.
+**T:** Operationele leiding nemen en het merk levensvatbaar maken of eerlijk concluderen dat het niet kon.
+**A:** Sneed in de kostenbasis, herzag prijs en distributie, zette een B2C-webshop op.
+**R:** Besliste eind 2024 te stoppen toen stoppen de juiste keuze was: verlies begrensd, lessen expliciet gemaakt.
+**Use for:** "Vertel over een mislukking", "Hoe neem je moeilijke beslissingen?"
+
+## STAR Candidates (Complete Manually)
+
+### SAP-partnership One Consultants
+**Source:** CV - One Consultants
+**What happened:** Opende de deur bij SAP België; partnership leidde tot een spreekplek op een Europees SAP-klantenevent in Parijs.
+**Why it matters:** partnershipontwikkeling, enterprise sales, autoriteit opbouwen.
+**S/T/A/R stub:**
+- Situation:
+- Task:
+- Action:
+- Result:
 
 ## Common Tough Questions
 

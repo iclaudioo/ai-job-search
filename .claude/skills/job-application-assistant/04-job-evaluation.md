@@ -6,7 +6,7 @@ framework_version: 1.1.0
 
 <!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
 
-## Eligibility Gate — run before scoring
+## Eligibility Gate: run before scoring
 
 If the candidate is not a citizen or permanent resident of the country they are applying in, run this first. It is a hard filter, not a scoring dimension, and it is separate from work-permit *timing*: timing asks "can they work the required hours yet?", eligibility asks "are they permitted to hold this job at all?". A candidate can pass timing and still be categorically excluded.
 
@@ -14,9 +14,9 @@ Read the posting's eligibility / work rights / "who can apply" section **verbati
 
 | Posting wording | Verdict |
 |-----------------|---------|
-| Names a **citizenship or permanent-residency requirement** ("must be a citizen of X", "permanent resident", "PR required", "full working rights" where the employer means citizen/PR) | **FAIL — hard stop.** Do not score, do not draft. Quote the exact wording back to the user. |
+| Names a **citizenship or permanent-residency requirement** ("must be a citizen of X", "permanent resident", "PR required", "full working rights" where the employer means citizen/PR) | **FAIL: hard stop.** Do not score, do not draft. Quote the exact wording back to the user. |
 | Requires a **security clearance** at any level | **FAIL** in most countries, since clearance is normally gated on citizenship. Verify the specific scheme rather than assuming. |
-| **Explicitly names** the candidate's permit class, or says "international applicants welcome", "visa holders considered", "we sponsor" | **PASS** — verified acceptance. Worth noting as a positive in the application. |
+| **Explicitly names** the candidate's permit class, or says "international applicants welcome", "visa holders considered", "we sponsor" | **PASS**: verified acceptance. Worth noting as a positive in the application. |
 | **Silent** on citizenship or residency | **PROCEED, but mark unverified.** Check the employer's own careers or international-applicant page before drafting. |
 
 **Two rules that are easy to get wrong:**
@@ -26,7 +26,7 @@ Read the posting's eligibility / work rights / "who can apply" section **verbati
 
 **Report an eligibility failure to the user with the quoted source** rather than silently dropping the role. They may know something about their own status that the profile does not record.
 
-If the candidate's permit also constrains *hours* or *start date* (a student visa with a term-time cap, a permit that begins on graduation), record that as a second gate under this section during `/setup`, with the specific dates. Do not merge it with the eligibility question above — they fail for different reasons and need different answers.
+If the candidate's permit also constrains *hours* or *start date* (a student visa with a term-time cap, a permit that begins on graduation), record that as a second gate under this section during `/setup`, with the specific dates. Do not merge it with the eligibility question above: they fail for different reasons and need different answers.
 
 A role that fails this gate is not scored and not drafted. Everything below applies only to roles that pass it.
 
@@ -44,9 +44,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** value proposition-ontwikkeling, go-to-market, B2B-groeimarketing, merkstrategie en rebranding, behavioural design, messaging en storytelling, kwalitatief klantonderzoek, Playing to Win / Blue Ocean-strategie, AI-native marketingworkflows (Claude Code)
+**Moderate match areas:** performance marketing, marktdata-analyse en datavisualisatie, prototyping (Next.js, React, HTML), pricing- en businessmodelstrategie, salesleiderschap
+**Weak match areas:** diepgaand technische rollen (engineering, data science), CFO-achtige financiële analyse, B2C-retailmarketing op schaal, rollen die een masterdiploma hard vereisen
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -58,9 +58,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** B2B-marketing en -sales in media, automotive, tech en energie; propositie- en strategietrajecten op C-level; marketingleiderschap (teams tot 11 mensen); zelfstandig ondernemerschap en agency-werk
+**Moderate:** B2C (webshop Holy Water, dealermarketing); internationale saleslead (i3-Technologies); transformatie- en turnaround-situaties
+**Entry-level:** corporate omgevingen met zware governance (bank, verzekeraar) als werknemer; productmanagement in software
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,19 +91,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Een senior propositie- of strategierol (Value Proposition Manager, Proposition Lead) waar klantinzicht de strategie stuurt.
+- Een marketingleiderschapsrol (Head of Marketing, Marketing Director) met mandaat op strategie, niet enkel executie.
+- Directe lijn naar CEO of directiecomité; zichtbare impact op de groeistrategie.
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
+- Tasks that energize: proposities ontwerpen vanuit klantfrictie en gedragsinzicht, strategieën bouwen (Playing to Win), aannames challengen, prototypes bouwen en testen, C-level sparring.
+- Tasks that drain: puur operationeel campagnebeheer, uitvoeren van elders besliste plannen, zware goedkeuringsprocessen zonder mandaat, rapportering zonder besliskracht.
 - Non-task factors: leadership style, department culture, company values, degree of autonomy
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: CEG-opdracht afgerond (juni 2026); actief zoekend, dus doorlooptijd van het proces telt mee.
+- **Flexibility**: hybride werken verwacht bij pendel buiten de regio Limburg/Vlaams-Brabant; geen verhuis.
+- **Professional development**: AI-native blijven werken; ruimte voor executive education en experiment.
 
 ### 6. Salary Benchmark (Optional)
 
