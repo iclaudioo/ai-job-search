@@ -30,6 +30,25 @@ If the candidate's permit also constrains *hours* or *start date* (a student vis
 
 A role that fails this gate is not scored and not drafted. Everything below applies only to roles that pass it.
 
+## Non-compete gate (Claudio-specifiek, hard filter)
+
+Uit de CEG-opdracht loopt een non-compete: **de brandstoffensector is uitgesloten, en enkel die**. Rollen bij brandstofleveranciers, oliemaatschappijen, stookolie- of tankstationspelers (Q8-type bedrijven): FAIL, niet scoren, niet draften; meld het aan Claudio met de reden.
+
+De rest van de energiesector valt buiten het beding en wordt normaal geëvalueerd: utilities, elektriciteits- en netbedrijven, hernieuwbare energie, smeermiddelen, energiesoftware en energie-adviesbureaus. Niet apart voorleggen, niet downgraden. Twintig jaar B2B inclusief energie is daar een pluspunt, geen risico. Scope en einddatum van het beding zijn niet gedocumenteerd; enkel bij een bedrijf dat echt brandstof verkoopt en waar de indeling twijfelachtig is, vraag je het na.
+
+## Taalgate (Claudio-specifiek, hard filter)
+
+**Franstalige rollen zijn uitgesloten.** Twee criteria, elk voldoende voor een FAIL:
+
+1. De vacaturetekst is in het Frans opgesteld.
+2. Frans staat als vereiste werktaal in de functievereisten (ook "tweetalig NL/FR", "bilingue", "parfaite maîtrise du français").
+
+Zulke rollen worden niet gescoord en niet gedraft; meld ze aan Claudio met de reden. Frans als nice-to-have of als een van meerdere talen zonder vereisteniveau is géén FAIL.
+
+Dit staat los van locatie: Brussel blijft in scope zolang de werktaal Nederlands of Engels is. Wallonië valt in de praktijk al af op pendelafstand.
+
+Het profiel vermeldt Frans op professioneel niveau. Dat blijft feitelijk juist en mag op het CV blijven staan; het is een keuze om er niet in te werken, geen gebrek aan vaardigheid.
+
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:

@@ -70,10 +70,13 @@ Geen formele awards; proof points staan als "In cijfers"-regel in `05-cv-templat
 - Strategie die ook gebouwd wordt: prototypes, AI-native werken, meetbare groei
 
 ### Target Sectors
-- Value proposition- en propositierollen: banken en verzekeraars (KBC-type), energie, telco, scale-ups met complexe proposities
-- Marketingleiderschap en -strategie: B2B-bedrijven in Vlaanderen (media, automotive, tech, energie)
+- Value proposition- en propositierollen: banken en verzekeraars (KBC-type), telco, scale-ups met complexe proposities
+- Marketingleiderschap en -strategie: B2B-bedrijven in Vlaanderen (media, automotive, tech)
+- Energie breed is in scope (utilities, netbedrijven, hernieuwbaar, energiesoftware); enkel de brandstoffensector is uitgesloten door non-compete (zie deal-breakers)
 
 ### Deal-breakers
+- **Brandstoffensector uitgesloten: non-compete** (uit de CEG-opdracht). Geen rollen bij brandstofleveranciers, oliemaatschappijen, stookolie- of tankstationspelers. De rest van de energiesector valt hier niet onder en wordt gewoon meegenomen.
+- **Franstalige rollen.** Vacature in het Frans opgesteld, of Frans als vereiste werktaal (inclusief "tweetalig NL/FR"). Brussel blijft in scope zolang de werktaal Nederlands of Engels is.
 - Verhuis vereist
 - Puur uitvoerende rol zonder mandaat op propositie of strategie
 - Voltijds op kantoor buiten pendelafstand (hybride vereist bij langere pendel)

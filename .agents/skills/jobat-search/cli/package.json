@@ -1,0 +1,20 @@
+{
+  "name": "jobat-cli",
+  "version": "1.0.0",
+  "description": "CLI for searching jobs on Jobat.be (Belgium / Flanders). Renders Jobat's public pages through the firecrawl CLI because Jobat blocks direct requests at Cloudflare. Personal use only.",
+  "type": "module",
+  "main": "src/cli.ts",
+  "bin": {
+    "jobat-search": "src/cli.ts"
+  },
+  "scripts": {
+    "start": "bun run src/cli.ts",
+    "test": "bun test --timeout 120000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/bun": "1.3.14"
+  }
+}

@@ -4,9 +4,20 @@
 
 `/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
 
-De Deense portal-CLI's (jobindex, jobbank, jobdanmark, jobnet) zijn irrelevant voor de Belgische markt: negeren. Overweeg `/add-portal` voor VDAB of Jobat als een CLI nuttig blijkt.
+De Deense portal-CLI's (jobindex, jobbank, jobdanmark, jobnet) zijn irrelevant voor de Belgische markt: negeren.
 
-The `site:` query templates in this file are the **WebSearch fallback**: for portals without a CLI, company career pages, or when a CLI fails.
+Belgische CLI's, gebouwd met `/add-portal` op 2026-08-04:
+
+| Skill | Zoeken | Detail | Let op |
+|-------|--------|--------|--------|
+| `linkedin-search` | native | native | Breedste dekking op senior niveau |
+| `jobat-search` | via firecrawl | via firecrawl | Jobat blokkeert alle directe requests met Cloudflare. Trage calls, houd `--limit` laag |
+| `stepstone-search` | native | via firecrawl | Geen paginatie: robots.txt verbiedt `q` samen met een tweede parameter |
+| `vdab-search` | native | via firecrawl | Breedste aanbod maar losse keyword-matching, veel ruis. `detail` geeft contract, studies en ervaring als aparte velden |
+
+`jobat-search`, `stepstone-search` en `vdab-search` hebben de **firecrawl CLI** nodig voor `detail` (Jobat ook voor `search`). Ontbreekt firecrawl, dan blijft zoeken werken op StepStone en VDAB, en falen de detailcalls met een expliciete foutmelding in plaats van stil leeg te lopen. Elke zoekhit bevat een snippet, dus een fitinschatting kan ook zonder detail.
+
+The `site:` query templates in this file are the **WebSearch fallback**: for portals without a CLI, company career pages, or when a CLI fails. Merk op dat Jobat de WebSearch- en WebFetch-user-agents blokkeert, dus voor dat board is de CLI de enige werkende weg.
 
 ## Search Sites
 
