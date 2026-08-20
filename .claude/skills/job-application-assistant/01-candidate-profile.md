@@ -43,7 +43,7 @@ framework_version: 1.0.0
 ### Strategic Growth Leader - Comfort Energy Group (nov 2024 - jun 2026)
 België (extern, via eigen vennootschap Yoda)
 - Schreef de winning sales propositions, de commerciële invulling van de how to win: proposities die klantnoden invullen die de concurrentie laat liggen; de uitrol loopt.
-- Herkende in grootschalig klantonderzoek en eigen marktdata het patroon achter structureel dalende volumes en vertaalde dat naar het inzicht dat de hele strategie draagt: klantlevenswaarde boven transactie.
+- Herkende in grootschalig klantonderzoek en eigen marktdata het patroon achter structureel dalende volumes en vertaalde dat naar het inzicht dat de hele strategie draagt: customer lifetime value boven transactie.
 - Ontwikkelde die groeistrategie samen met de CEO volgens het Playing to Win-framework, verdeeld over vier fiscale jaren tot 2030; goedgekeurd door de raad van bestuur.
 - End-to-end verantwoordelijk voor de strategic growth marketing; bouwde de proposities over alle afdelingen heen, samen met CDO, CFO, Chief M&A Officer, Chief Supply Chain Officer en Operations.
 - Bracht de Belgische markt met eigen data-analyse tot op straatniveau in kaart; die kaart stuurt de where to play en de proposities.
@@ -110,6 +110,14 @@ Hasselt
 ### Software & Tools
 - Prototyping: Next.js, React, HTML.
 - AI-native marketingworkflows: Claude Code (zes Anthropic-certificaten, 2026), n8n, Make.
+
+### Gevalideerd door Claudio (aug 2026, Bebat-sollicitatie)
+- Beheerde als marketingmanager budgetten tot circa 3,5 miljoen euro.
+- Stuurde als marketingmanager media- en reclamebureaus aan (mediaplanning, tarieven); richtte later zelf een agency op.
+- Geen formele PR-ervaring; niet claimen.
+- Werkt altijd voor één organisatie of klant tegelijk, volledig ondergedompeld (uitzondering: de agencyperiode). Bruikbaar als antwoord op de retentie-objectie bij vaste rollen.
+- Leidinggevende ervaring claimen als cumulatief "acht jaar in leidinggevende rollen", niet als "sinds 2018 onafgebroken" (gat jul-aug 2022; CEG zonder gedocumenteerde direct reports).
+- Taalnorm (hard): Engelse vaktermen in Nederlandse zinnen, zoals Vlaamse marketeers spreken. Dus customer lifetime value, where to play, brand building, transformation office, revenue model. Nooit Nederlandse calques zoals klantlevenswaarde, marktkeuzes of merkenbouw.
 
 ## Publications
 Geen peer-reviewed publicaties.
